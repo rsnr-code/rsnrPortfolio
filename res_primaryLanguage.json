@@ -1,0 +1,178 @@
+{
+    "basic_info": {
+      "description_header": "👋 Hi there!",
+      "description": "I'm Rishad and I love to build things with code. My first experience with web development was at the age of 14 when I would make fansites for my favourite TV shows. It started off as a hobby I showed off to my friends but quickly turned into something more. After a long break and a degree in Life Sciences, I decided, this time, to give programming a serious shot. The journey has been challenging but the feeling of learning something new and implementing it into your work has brought the nostalgic feelings back. Along with my personal projects, I have had the opportunity to work with other developers to create applications through the 100devs agency. I'm currently seeking a full-time role where I can help a company achieve their goals.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Contact Me"
+      }
+    },
+    "projects": [
+      {
+        "title": "The Set Listener",
+        "titleImage": ["images/portfolio/animal-shelter/logo.png"],
+        "startDate": "2020",
+        "description": "Going to a show? Not totally familiar with an artist’s catalog? Give The Set Listener a try. The Set Listener is a web app that will create a Spotify playlist of an artist’s most recent show. Just type in the artist name, and hit the search button, you’ll be presented with a playlist of songs from that artist’s most recent show. Hit the ‘Save this playlist to Spotify’ button and you’ll have a Spotify playlist that you can listen to on your desktop or on your mobile phone.",
+        "why": "I love discovering new music and going to live shows. I’ve found that concerts are best enjoyed when you know the songs that will be played. So before every show, I would spend time finding the setlist and then creating a playlist to listen to. This took time and although I didn’t mind because it was something I enjoyed doing, I knew there had to be a better way. As I was learning programming, I figured out making a web app that does just that was a necessity.",
+        "learn": "Building this app was both extremely fun and challenging. It is a simple app but I had a time limit for finishing this app up. I had to be efficient in my work and make sure I didn’t spend too much time on parts of the project that I wouldn’t deem as crucial. Amongst many other things, this app taught me how to best manage my time. On the technical side, I learned a lot about APIs and how to communicate and relay information between my app’s client and server-side. ",
+        "hardest": "Before starting the project, my knowledge on APIs was a little rusty. Due to security reasons (protection of setlistfm API key), setlistfm API was required to run in the back-end of my application. Due to that, the hardest part of this app was figuring out the best way to pass parameters from the front-end to the back-end server. The parameters being the artist name. It took a lot of reading of setlistfm API documentation and problem-solving through trial and error. ",
+        "better": "Currently, the app is very simple. You type in a name, setlist is displayed, and after clicking a button, a playlist is created. Although, this is what the main function of the app is, it would be nice to include other functionalities. One thing that would make this app better is if the searched artist’s next show details are displayed. In addition to that, another fun optimization would be to allow the user to see if the artist is coming to their area anytime soon.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p3.gif",
+          "images/portfolio/animal-shelter/p4.jpg",
+          "images/portfolio/animal-shelter/p5.jpg"
+        ],
+        "url": "https://setlistener.herokuapp.com/",
+        "repo": "https://github.com/rsnr-code/set-listener",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain-wordmark",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Diagnose",
+        "titleImage": ["images/portfolio/photography/logo.png"],
+        "startDate": "2018",
+        "description": "Diagnose is meant for medical experts to share images of particular cases they would like to initiate discussions on with other medical experts. It is a full-stack application built using Node.js as a backend JavaScript runtime environment, Express.js as a backend framework, MongoDB as a database, and EJS as a template language to generate HTML markup.",
+        "why": "After working in a hospital and interacting with medical experts, such as doctors and nurses, I noticed some recurring themes. We would have daily meetings with all the staff in our unit to discuss resident/patient symptoms and conditions. The medical staff would have pictures they would share between each other to discuss the diagnosis and treatment. Whilst thinking of a full-stack project, I came up with the idea of building an app where hospital staff could discuss cases based on shared images.",
+        "learn": "This was a rather large project so it needed to be organized well. I used the MVC (Model-View-Controller) architectural pattern to separate this app into three main groups of components. This allowed the building process to be efficient since my code was organized efficiently. MVC fascinated me so much that I made a PowerPoint presentation on it (https://github.com/rsnr-code/MVC-Lecture).",
+        "hardest": "One of the most challenging parts of building this app was learning how to retrieve information from the database to the controller and how to display it into the EJS template. This caused me to get stuck quite a few times. I overcame this issue by reading up on what information I must pass on from my controllers so they will be displayed correctly on my ejs template.",
+        "better": "This was one of my favourite projects to build. Therefore, I have thought up many ways I could make it even better. I would include abilities like deleting and editing comments, creating a thread for a specific comment, ability to unbookmark posts, ability to post multiple images for a post, and so on. You can find out more by visiting the repo. ",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg",
+          "images/portfolio/photography/p3.jpg",
+          "images/portfolio/photography/p4.jpg",
+          "images/portfolio/photography/p5.jpg"
+        ],
+        "url": "https://diagnoseapp.herokuapp.com/",
+        "repo": "https://github.com/rsnr-code/diagnose",
+        "technologies": [
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "MyNotes",
+        "titleImage": ["images/portfolio/adventure/logo.jpg"],
+        "startDate": "2015",
+        "description": "MyNotes is a full-stack application built using EJS to generate HTML markup, Nodejs as the backend JavaScript runtime environment, Express.js as the backend framework, and MongoDB as the database. This application allows users to create accounts (via passport-local authentication), write notes with either private or public status, and display them to other users.",
+        "why": "This was one of my first full-stack applications that I created. I wanted to start with something useful and simple. I am a person who writes down a lot of my thoughts. I wanted to build something that would allow me to write up notes that I could share to my friends/public.",
+        "learn": "I learned how to use ejs to display information acquired from the database to the client-side browser. I got comfortable with the syntax that ejs uses and found the most efficient ways to display information. ",
+        "hardest": "One of the most challenging parts of building this app was learning how to work with bootstrap. Although CSS is a fundamental part of web development, I know a lot of developers, myself included, that wouldn’t label themselves designers. Bootstrap is a life-saver in that sense but it still has a lot of getting used to.",
+        "better": "This app could be made better by making it more personalized to the user. One way to do that would be to personalize the profile page of a user by adding profile pictures and an about me section. ",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg",
+          "images/portfolio/adventure/p3.jpg",
+          "images/portfolio/adventure/p4.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Front-End Developer",
+        "years": "10.2019 - present",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Intern",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }
