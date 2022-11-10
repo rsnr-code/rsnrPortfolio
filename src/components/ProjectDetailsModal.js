@@ -93,7 +93,7 @@ class ProjectDetailsModal extends Component {
                   className="link-href">
 
                     
-                     <img src={titleImage} alt="" style={{ maxWidth: "15em", maxHeight: "3em" }}/>
+                     <img src={titleImage} alt="" style={{ maxWidth: "15em", maxHeight: "3em"}}/>
                   </a>
                   
                  <a
@@ -104,7 +104,7 @@ class ProjectDetailsModal extends Component {
                 >
                   <i
                     className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
+                    style={{ marginLeft: "1em" }}
                   ></i>
                 </a>
                  <a
@@ -128,7 +128,7 @@ class ProjectDetailsModal extends Component {
             <p className="modal-description mb-1"><strong>What was the hardest part of building it?</strong></p>
             <p className="modal-description">{hardest}</p>
             <p className="modal-description mb-1"><strong>How can I make it better in the future?</strong></p>
-            <p className="modal-description">{better}</p>
+            <p className="modal-description" style={{marginBottom: "2em"}}>{better}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

@@ -78,6 +78,10 @@ header h1 {
   width: 100%;
 }
 
+body[data-theme=light] .slider-tab {
+  background-color: #a8d7f5;
+}
+
 .slider-image {
   border: 5px solid #a8d7f5;
 }

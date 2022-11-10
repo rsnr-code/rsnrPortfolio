@@ -5,7 +5,6 @@ import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/mongodb";
 import exIcon from "@iconify/icons-logos/express";
 
-
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -36,7 +35,7 @@ class About extends Component {
                     icon={vueIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
-                   <Icon
+                  <Icon
                     icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
@@ -48,8 +47,6 @@ class About extends Component {
                     icon={exIcon}
                     style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
                   />
-                
-                  
                 </span>
               </div>
             </div>
