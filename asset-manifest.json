@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c3d1e78.chunk.css",
-    "main.js": "/static/js/main.148dc72a.chunk.js",
-    "main.js.map": "/static/js/main.148dc72a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a5042f6b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a5042f6b.js.map",
-    "static/css/2.e45429e2.chunk.css": "/static/css/2.e45429e2.chunk.css",
-    "static/js/2.0a7ea554.chunk.js": "/static/js/2.0a7ea554.chunk.js",
-    "static/js/2.0a7ea554.chunk.js.map": "/static/js/2.0a7ea554.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d6d32f1db83f414bf2b22700bdc8a1b0.js": "/precache-manifest.d6d32f1db83f414bf2b22700bdc8a1b0.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.e45429e2.chunk.css.map": "/static/css/2.e45429e2.chunk.css.map",
-    "static/css/main.6c3d1e78.chunk.css.map": "/static/css/main.6c3d1e78.chunk.css.map",
-    "static/js/2.0a7ea554.chunk.js.LICENSE.txt": "/static/js/2.0a7ea554.chunk.js.LICENSE.txt"
+    "main.css": "/rsnrPortfolio/static/css/main.6c3d1e78.chunk.css",
+    "main.js": "/rsnrPortfolio/static/js/main.46c7fe31.chunk.js",
+    "main.js.map": "/rsnrPortfolio/static/js/main.46c7fe31.chunk.js.map",
+    "runtime-main.js": "/rsnrPortfolio/static/js/runtime-main.dfb3c487.js",
+    "runtime-main.js.map": "/rsnrPortfolio/static/js/runtime-main.dfb3c487.js.map",
+    "static/css/2.e45429e2.chunk.css": "/rsnrPortfolio/static/css/2.e45429e2.chunk.css",
+    "static/js/2.0a7ea554.chunk.js": "/rsnrPortfolio/static/js/2.0a7ea554.chunk.js",
+    "static/js/2.0a7ea554.chunk.js.map": "/rsnrPortfolio/static/js/2.0a7ea554.chunk.js.map",
+    "index.html": "/rsnrPortfolio/index.html",
+    "precache-manifest.4e0be71e1c0f5920089fa9cb5c005db7.js": "/rsnrPortfolio/precache-manifest.4e0be71e1c0f5920089fa9cb5c005db7.js",
+    "service-worker.js": "/rsnrPortfolio/service-worker.js",
+    "static/css/2.e45429e2.chunk.css.map": "/rsnrPortfolio/static/css/2.e45429e2.chunk.css.map",
+    "static/css/main.6c3d1e78.chunk.css.map": "/rsnrPortfolio/static/css/main.6c3d1e78.chunk.css.map",
+    "static/js/2.0a7ea554.chunk.js.LICENSE.txt": "/rsnrPortfolio/static/js/2.0a7ea554.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5042f6b.js",
+    "static/js/runtime-main.dfb3c487.js",
     "static/css/2.e45429e2.chunk.css",
     "static/js/2.0a7ea554.chunk.js",
     "static/css/main.6c3d1e78.chunk.css",
-    "static/js/main.148dc72a.chunk.js"
+    "static/js/main.46c7fe31.chunk.js"
   ]
 }
